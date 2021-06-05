@@ -1,0 +1,55 @@
+
+/*Imagen footer*/
+
+.footer-conteiner{
+    margin-top: 37px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes{
+
+    /* background-color: rgba(137, 43, 226, 0.281); */
+    width: 30%;
+    height: 15%;
+
+        .listRedes{
+            list-style: none;
+            text-decoration: none;
+        }
+        .redes__link{
+            text-decoration: none;
+        }
+        @media screen and (min-width: 610px ){
+
+            .redes__facebook{
+                width: 9%;
+                height: 80%;
+                    &:hover{
+                        transform: scale(1.3,1.3);
+                        transition: 0.5s;
+                        
+                    }
+            }
+            .redes__instagram{
+                width: 9%;
+                height: 80%;
+                &:hover{
+                    transform: scale(1.3,1.3);
+                    transition: 0.5s;
+                    
+                }
+            }
+            .redes__youtube{
+                width: 9%;
+                height: 80%;
+                    &:hover{
+                        transform: scale(1.3,1.3);
+                        transition: 0.5s;
+                        
+                    }
+            }
+        }
+}

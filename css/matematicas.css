@@ -1,0 +1,18 @@
+.titulo--container {
+  height: 1062%;
+  width: 81%;
+  margin-left: 9%;
+  margin-top: 20px;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textoPrincipal {
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-size: 150%;
+  line-height: 41px;
+  text-align: center;
+}
