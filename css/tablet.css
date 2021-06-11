@@ -1,0 +1,111 @@
+
+/* INDEX*/
+.contenedorTitulo .contenedorTitulo__Principal{
+    font-family: 'Indie Flower', cursive;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+}
+.presentacionIntegrantes{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.integrante__unoImg{
+    width: 155px;
+    height: 165px;
+}
+.integranteUnoDatos{
+    width: 155px;
+    height: 50px;   
+    margin-top: 8px;
+/*     background-color: coral; */
+}
+.integranteUnoDatos__nombre{
+    font-size: 19px;
+    line-height: 24px;
+}
+.integranteUnoDatos__cargo{
+    font-size: 13px;
+    line-height: 15px;
+    padding-top: 5px;
+}
+.integrante__dosImg{
+    width: 155px;
+    height: 165px;
+    margin-left: 33px;
+}
+.integranteDosDatos{
+    width: 180px;
+    height: 50px;   
+    margin-top: 8px;  
+/*     background-color: coral; */
+}
+.integranteDosDatos__nombre{
+    font-size: 19px;
+    line-height: 24px;
+    padding-left: 0px;
+}
+.integranteDosDatos__cargo{
+    font-size: 13px;
+    line-height: 15px;
+    padding-top: 5px;
+}
+
+/*NOSOTRAS*/
+
+.tituloSection{
+    font-size: 25px;
+    line-height: 27px;
+}
+.integrantes{
+    width: 290px;
+    height: 300px;
+}
+.descripcionServicios{
+    height: 340px;
+}
+.button__nosotras{
+    margin-top: 9%;
+}
+
+@media screen and (min-width: 1280px ){
+    .button__nosotras{
+        margin-top: 3%;
+    }
+}
+
+/*SERVICIOS*/
+@media screen and (min-width: 1280px ){
+    .buttonServicios{
+        margin-top: 8%;
+    }
+}
+
+/* TEXTO PRINCIPAL TODAS LAS SECCIONES*/
+.textoPrincipal{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 41px;
+    text-align: center;
+}
+.botonCarrusel{
+    margin-right: 30%;
+    margin-left: 30%;
+}
+.calendario{
+/*     background-color: brown; */
+    margin-top: 15px;
+}
+@media screen and (min-width: 1280px ){
+    .botonCarrusel{
+        margin-right: 39%;
+        margin-left: 39%;
+    }
+    .calendario{
+        /* background-color: brown; */
+        margin-top: 30px;
+    }
+
+}
