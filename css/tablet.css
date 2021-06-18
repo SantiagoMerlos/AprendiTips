@@ -1,7 +1,7 @@
 
 /* INDEX*/
 .contenedorTitulo .contenedorTitulo__Principal{
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Amatic SC', cursive;
     font-weight: 400;
     font-size: 50px;
     text-align: center;
@@ -51,22 +51,39 @@
     line-height: 15px;
     padding-top: 5px;
 }
-
+.ListaIndex{
+    list-style: none;
+    text-align: center;
+}
 /*NOSOTRAS*/
 
 .tituloSection{
-    font-size: 25px;
+    font-size: 35px;
     line-height: 27px;
+    text-align: center;
 }
 .integrantes{
     width: 290px;
     height: 300px;
 }
+
 .descripcionServicios{
-    height: 340px;
+    height: 500px;
+}
+.NombreIntegrantesNosotras{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: center;
+    margin-top: 30px;
+}
+.Descripcion{
+    padding-top: 2%;
 }
 .button__nosotras{
-    margin-top: 9%;
+    margin-top: 5%;
 }
 
 @media screen and (min-width: 1280px ){
@@ -86,7 +103,7 @@
 .textoPrincipal{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 30px;
     line-height: 41px;
     text-align: center;
 }
