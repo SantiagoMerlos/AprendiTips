@@ -1,5 +1,6 @@
 /*Fuentes*/
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins:wght@100;400&display=swap');
 
@@ -39,10 +40,9 @@ body{
     align-items: center;
     justify-content: center;
     .contenedorTitulo__Principal{
-        font-family: 'Indie Flower', cursive;
-        font-weight: 400;
-        font-size: 150%;
-        line-height: 41px;
+        font-weight: 900;
+        font-size: 200%;
+        line-height: 45px;
         text-align: center;
     }
 }
@@ -54,10 +54,8 @@ body{
     margin-top: 1%;
     margin-left: 9%;
     .contenedorAyudaProfesional__Titulo{
-        font-family: 'Indie Flower';
-        font-family: $fontTitulos;
         font-weight: bold;
-        font-size: 18px;
+        font-size: 29px;
         text-align: center;
         line-height: 168.75%;
         padding-top: 15px;
@@ -65,7 +63,7 @@ body{
 
     .contenedorAyudaProfesional__Descripcion{
         font-family: $fontTitulos;
-        font-size: 17px;
+        font-size: 16px;
         line-height: 25px;
         text-align: center;
     }
@@ -84,10 +82,8 @@ body{
     justify-content: center;
 }
 .presentacion__titulo{
-    font-family: 'Indie Flower';
-    font-family: $fontTitulos; 
     font-weight: 700;
-    font-size: 18px;
+    font-size: 30px;
     line-height: 27px;
     text-align: center;
     }
@@ -102,7 +98,7 @@ body{
 .integrante__unoImg{
     width: 143px;
     height: 152px;
-
+    border-radius: 20px;
     margin-top: 24px;
 }
 .integranteUnoDatos{
@@ -135,6 +131,7 @@ text-align: center;
     height: 152px;
     margin-left: 25px;
     margin-top: 24px;
+    border-radius: 20px;
 }
 
 .integranteDosDatos{
@@ -181,11 +178,24 @@ text-align: center;
     font-family: $fontTitulos;
     font-weight: 700;
     font-style: Bold;
-    font-size: 160%;
+    font-size: 180%;
     line-height: 100%;
 
 }
+.VideoBienvenida{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
+.ListaIndex__descripcion{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 25px;
+}
 @media screen and (max-width: 609px ){
     .contenidos__section{
         width: 305px;
@@ -279,7 +289,7 @@ text-align: center;
     height: 96px;
     margin-left: 199px;
     margin-top: 11px;
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
 }
 /*RedesSociales*/
 @import "redes";
@@ -297,7 +307,7 @@ text-align: center;
     flex-wrap: wrap;
     margin-left: 9%;
     width: 81%;
-    /*  background-color: rgba(165, 42, 42, 0.253);*/
+    /* background-color: rgba(165, 42, 42, 0.253); */
 
 }
 .cardServicios{
@@ -314,8 +324,20 @@ text-align: center;
     margin-top: 20px;
 }
 .descripcionServ{
-    padding-bottom: 47px;
+    /* padding-bottom: 47px; */
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 25px;
+    /* text-align: center; */
+    padding-top: 5%;
+    /* background-color: #C4302B; */
 }
+.itemServicio{
+    text-align: start;
+}
+
 @media screen and (min-width: 610px ){
     .cardSectionServicios{
         display: flex;
@@ -369,9 +391,23 @@ text-align: center;
         text-decoration: none;
     }
 }
+/*Boton youtube*/
+
+
 /*Pisando el color para las secciones contenidos*/
 .button__colorContenidos{
     background-color:#C4302B ;
 }
 /*Seccion fechas importantes, calendario*/
 @import "FechasImportantes";
+
+.icono{
+    color: brown;
+    width: 200px !important;
+    background-color: chartreuse;
+}
+
+.fuenteTitulos{
+    font-family: 'Amatic SC', cursive;
+
+}
