@@ -1,5 +1,6 @@
 /*Fuentes*/
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins:wght@100;400&display=swap");
 * {
@@ -64,10 +65,9 @@ body {
   justify-content: center;
 }
 .contenedorTitulo .contenedorTitulo__Principal {
-  font-family: "Indie Flower", cursive;
-  font-weight: 400;
-  font-size: 150%;
-  line-height: 41px;
+  font-weight: 900;
+  font-size: 200%;
+  line-height: 45px;
   text-align: center;
 }
 
@@ -80,17 +80,15 @@ body {
   margin-left: 9%;
 }
 .contenedorAyudaProfesional .contenedorAyudaProfesional__Titulo {
-  font-family: "Indie Flower";
-  font-family: "Poppins", sans-serif;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 29px;
   text-align: center;
   line-height: 168.75%;
   padding-top: 15px;
 }
 .contenedorAyudaProfesional .contenedorAyudaProfesional__Descripcion {
   font-family: "Poppins", sans-serif;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 25px;
   text-align: center;
 }
@@ -108,10 +106,8 @@ body {
 }
 
 .presentacion__titulo {
-  font-family: "Indie Flower";
-  font-family: "Poppins", sans-serif;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 30px;
   line-height: 27px;
   text-align: center;
 }
@@ -127,6 +123,7 @@ body {
 .integrante__unoImg {
   width: 143px;
   height: 152px;
+  border-radius: 20px;
   margin-top: 24px;
 }
 
@@ -162,6 +159,7 @@ body {
   height: 152px;
   margin-left: 25px;
   margin-top: 24px;
+  border-radius: 20px;
 }
 
 .integranteDosDatos {
@@ -210,8 +208,23 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: Bold;
-  font-size: 160%;
+  font-size: 180%;
   line-height: 100%;
+}
+
+.VideoBienvenida {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.ListaIndex__descripcion {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 25px;
 }
 
 @media screen and (max-width: 609px) {
@@ -303,7 +316,7 @@ body {
   height: 96px;
   margin-left: 199px;
   margin-top: 11px;
-  background-color: cadetblue;
+  /* background-color: cadetblue; */
 }
 
 /*RedesSociales*/
@@ -389,17 +402,15 @@ body {
 }
 
 .tituloSection {
-  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 30px;
   line-height: 27px;
 }
 
 /*VIDEOS*/
 .tituloVideo {
   margin-top: 40px;
-  margin-left: 9%;
   margin-bottom: 12px;
   font-family: Indie Flower;
   font-style: normal;
@@ -409,7 +420,7 @@ body {
 
 @media screen and (max-width: 609px) {
   .video {
-    margin-left: 9%;
+    margin-left: 0%;
     width: "304px";
     height: "152px";
   }
@@ -502,7 +513,7 @@ body {
 
 .descripcionServicios {
   width: 81%;
-  height: 380px;
+  height: 850px;
   margin-left: 9%;
   background-color: #FFFFFF;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -516,7 +527,35 @@ body {
   font-size: 17px;
   line-height: 25px;
   text-align: center;
-  padding-top: 5%;
+  padding-top: 4.5%;
+}
+
+.NombreIntegrantesNosotras {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 25px;
+  text-align: center;
+  margin-top: 15%;
+}
+
+.DescripcionCargo {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.button__nosotras {
+  margin-top: 3%;
+}
+
+.ListaCargos {
+  list-style: none;
+  margin-right: 3px;
 }
 
 /*Seccion Servicios*/
@@ -525,7 +564,7 @@ body {
   flex-wrap: wrap;
   margin-left: 9%;
   width: 81%;
-  /*  background-color: rgba(165, 42, 42, 0.253);*/
+  /* background-color: rgba(165, 42, 42, 0.253); */
 }
 
 .cardServicios {
@@ -543,7 +582,19 @@ body {
 }
 
 .descripcionServ {
-  padding-bottom: 47px;
+  /* padding-bottom: 47px; */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 25px;
+  /* text-align: center; */
+  padding-top: 5%;
+  /* background-color: #C4302B; */
+}
+
+.itemServicio {
+  text-align: start;
 }
 
 @media screen and (min-width: 610px) {
@@ -598,12 +649,19 @@ body {
   text-decoration: none;
 }
 
+/*Boton youtube*/
 /*Pisando el color para las secciones contenidos*/
 .button__colorContenidos {
   background-color: #C4302B;
 }
 
 /*Seccion fechas importantes, calendario*/
+@media screen and (min-width: 610px) {
+  .tituloSection__fechas {
+    padding-left: 23px;
+    /* background-color: brown; */
+  }
+}
 .botonCarrusel {
   border-radius: 15px;
   height: 50px;
@@ -732,167 +790,12 @@ body {
   grid-column-start: 3;
 }
 
-/**NEW FOOTER CODE**/
-.footer-distributed{
-  background-color: #1c1c1c;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-  box-sizing: border-box;
-  width: 100%;
-  text-align: left;
-  font: bold 16px sans-serif;
-  
-  padding: 55px 50px;
-  margin-top: 80px;
- }
-  
- .footer-distributed .footer-left,
- .footer-distributed .footer-center,
- .footer-distributed .footer-right{
-  display: inline-block;
-  vertical-align: top;
- }
-  
- .footer-distributed .footer-left{
-  width: 40%;
- }
-  
- .footer-distributed h3{
-  color:  #ffffff;
-  font: normal 36px 'Cookie', cursive;
-  margin: 0;
- }
-  
- .footer-distributed h3 span{
-  color:  #5383d3;
- }
-  
-  
- .footer-distributed .footer-links{
-  color:  #ffffff;
-  margin: 20px 0 12px;
-  padding: 0;
- }
-  
- .footer-distributed .footer-links a{
-  display:inline-block;
-  line-height: 1.8;
-  text-decoration: none;
-  color:  inherit;
- }
-  
- .footer-distributed .footer-company-name{
-  color:  #8f9296;
-  font-size: 14px;
-  font-weight: normal;
-  margin: 0;
- }
-  
-  
- .footer-distributed .footer-center{
-  width: 35%;
- }
-  
- .footer-distributed .footer-center i{
-  background-color:  #33383b;
-  color: #ffffff;
-  font-size: 25px;
-  width: 38px;
-  height: 38px;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 42px;
-  margin: 10px 15px;
-  vertical-align: middle;
- }
-  
- .footer-distributed .footer-center i.fa-envelope{
-  font-size: 17px;
-  line-height: 38px;
- }
-  
- .footer-distributed .footer-center p{
-  display: inline-block;
-  color: #ffffff;
-  vertical-align: middle;
-  margin:0;
- }
-  
- .footer-distributed .footer-center p span{
-  display:block;
-  font-weight: normal;
-  font-size:14px;
-  line-height:2;
- }
-  
- .footer-distributed .footer-center p a{
-  color:  #5383d3;
-  text-decoration: none;;
- }
-  
- .footer-distributed .footer-right{
-  width: 20%;
- }
-  
- .footer-distributed .footer-company-about{
-  line-height: 20px;
-  color:  #92999f;
-  font-size: 13px;
-  font-weight: normal;
-  margin: 0;
- }
-  
- .footer-distributed .footer-company-about span{
-  display: block;
-  color:  #ffffff;
-  font-size: 14px;
-  font-weight: bold;
-  margin-bottom: 20px;
- }
-  
- .footer-distributed .footer-icons{
-  margin-top: 25px;
- }
-  
- .footer-distributed .footer-icons a{
-  display: inline-block;
-  width: 35px;
-  height: 35px;
-  cursor: pointer;
-  background-color:  #33383b;
-  border-radius: 2px;
-  
-  font-size: 20px;
-  color: #ffffff;
-  text-align: center;
-  line-height: 35px;
-  
-  margin-right: 3px;
-  margin-bottom: 5px;
- }
-  
-  
- @media (max-width: 880px) {
-  
-  .footer-distributed{
-  font: bold 14px sans-serif;
-  
-  }
-  
-  .footer-distributed .footer-left,
-  .footer-distributed .footer-center,
-  .footer-distributed .footer-right{
-  display: block;
-  width: 100%;
-  margin-bottom: 40px;
-  text-align: center;
-  }
-  
-  .footer-distributed .footer-center i{
-  margin-left: 0;
-  }
-  .main {
-  line-height: normal;
-  font-size: auto;
-  }
-  
- }
+.icono {
+  color: brown;
+  width: 200px !important;
+  background-color: chartreuse;
+}
+
+.fuenteTitulos {
+  font-family: "Amatic SC", cursive;
+}
