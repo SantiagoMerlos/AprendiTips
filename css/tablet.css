@@ -108,9 +108,16 @@
     margin-top: 24px;
 }
 /*SERVICIOS*/
-@media screen and (min-width: 1280px ){
-    .buttonServicios{
-        margin-top: 8%;
+@media screen and (min-width: 1270px ){
+    .cardServicios {
+        height: 500px;
+
+    }
+}
+@media screen and (max-width: 1360px ){
+    .cardServicios {
+        height: 430px;
+
     }
 }
 
