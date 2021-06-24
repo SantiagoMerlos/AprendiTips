@@ -461,7 +461,7 @@ body {
 }
 
 .integrantes {
-  width: 305px;
+  width: 295px;
   height: 315px;
   margin-top: 9%;
   border-radius: 20px;
@@ -500,7 +500,7 @@ body {
 }
 .integrante__name {
   margin-top: 16px;
-  width: 305px;
+  width: 265px;
   height: 39px;
   /* background-color: aqua; */
   font-family: Arial;
